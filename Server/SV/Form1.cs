@@ -95,6 +95,9 @@ namespace SV
             private Form1 tmp_form = default;
             public infoAl(Socket sckInf, Form1 frm1)
             {
+                tmp_form = frm1;
+                tmp = sckInf;
+
                 if (!sckInf.Connected)
                 {
                     frm1.listBox1.Items.Add("[" + DateTime.Now.ToString("HH:mm:ss") + "]" + sckInf.Handle.ToString() + " couldn't connect.");
@@ -113,10 +116,7 @@ namespace SV
                     CloseSocks();
                     return;
                 }
-
-                tmp_form = frm1;
-                tmp = sckInf;
-
+                
                 frm1.listBox1.Items.Add("[" + DateTime.Now.ToString("HH:mm:ss") + "]" + sckInf.Handle.ToString() +
                         " socket session has started.");
                 try
