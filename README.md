@@ -69,6 +69,11 @@ For Huawei and other EMUI devices, read this article: https://dontkillmyapp.com/
 <img src="https://user-images.githubusercontent.com/45147475/107142142-e6bd0180-693d-11eb-90e3-7c9bc6209616.PNG" width="45%"></img>  
 <img src="https://user-images.githubusercontent.com/45147475/107142144-e91f5b80-693d-11eb-8b01-829d08b1e911.PNG" width="55%"></img>  
 
+# Update 21.02.2021  
+
++ Switching to Service based application.  
++ Few improvements.  
+
 # Update 07.02.2021 - Dracula Edition  
 
 + The GUI has been completely redesigned.  
