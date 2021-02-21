@@ -255,6 +255,11 @@ namespace Task2
                     }
                     else
                     {
+                        if (Soketimiz != null)
+                        {
+                            try { Soketimiz.Close(); } catch (Exception) { }
+                            try { Soketimiz.Dispose(); } catch (Exception) { }
+                        }
                         setAlarm(this);
                     }
                 }
